@@ -41,7 +41,7 @@ Senior Site Reliability Engineer focused on building reliable, scalable systems 
 {Observability, monitoring, \& incident analysis}
 {CI/CD pipelines \& release automation}
 {Production troubleshooting \& operational tooling}
-{Technical mentorship \& cross-team collaboration}
+{Technical mentorship \& cross team collaboration}
 {}{}{}
 
 \bigskip
@@ -59,9 +59,9 @@ Senior Site Reliability Engineer focused on building reliable, scalable systems 
 {Corpay}
 
 \roleAchievements
-{Led reliability improvements across Kubernetes workloads, including introducing KEDA-based scaling, optimizing Helm charts, and improving deployment pipelines to increase efficiency and security.}
+{Led reliability improvements across Kubernetes workloads, including introducing KEDA based scaling, optimizing Helm charts, and improving deployment pipelines to increase efficiency and security.}
 {Drove the migration from legacy identity approaches to Kubernetes Workload Identity, reducing operational risk and simplifying service authentication.}
-{Expanded observability by building custom Datadog monitors and dashboards and developing a Python-based SSL certificate monitoring tool to close visibility gaps.}
+{Expanded observability by building custom Datadog monitors and dashboards and developing a Python based SSL certificate monitoring tool to close visibility gaps.}
 {Automated operational workflows to reduce toil, debugged critical production incidents, and improved overall system resilience.}
 {Mentored junior SREs through incident response, troubleshooting, and automation best practices.}
 {}{}{}{}
@@ -76,8 +76,8 @@ Senior Site Reliability Engineer focused on building reliable, scalable systems 
 \roleAchievements
 {Supported production systems, focusing on incident response, operational automation, and improving developer experience in production environments.}
 {Partnered closely with application teams to troubleshoot production issues, improve deployment reliability, and reduce recurring operational pain.}
-{Built and refined automation to eliminate manual operational tasks while learning large-scale system design and reliability practices from experienced engineers.}
-{Contributed to post-incident reviews, developing a strong understanding of real-world failure modes and system behavior.}
+{Built and refined automation to eliminate manual operational tasks while learning large scale system design and reliability practices from experienced engineers.}
+{Contributed to post incident reviews, developing a strong understanding of real world failure modes and system behavior.}
 {}{}{}{}{}
 
 \newpage
@@ -94,11 +94,46 @@ Senior Site Reliability Engineer focused on building reliable, scalable systems 
 {Mentored teammates and collaborated with senior engineers to evolve reference architectures and operational practices.}
 {}{}{}{}
 
-\bigskip
+\medskip
 \begin{center}
 \textbf{Remaining work history available on LinkedIn}
 \end{center}
-\bigskip
+\medskip
+
+% =========================
+% Projects
+% =========================
+\newHeading{Projects}
+
+% -------- TradeXSports --------
+\newRole{2025 -- Present}
+{TradeXSports}
+{Client project}
+
+\roleAchievements
+{Designed the Azure platform for a client sports product, owning Terraform architecture, Azure DevOps pipelines, release flow, and infrastructure decisions across production and non production environments.}
+{Built modular Terraform stacks for Front Door, App Services with deployment slots, private networking, PostgreSQL, Key Vault, VPN access, and Application Insights to support secure delivery and low cost operations.}
+{Established CI/CD for infrastructure and application promotion, collaborating with a separate application developer while retaining ownership of platform, deployment, and observability strategy.}
+{}{}{}{}{}{}
+
+\medskip
+
+% -------- AWS Queue Jobs --------
+\newRole{2025 -- Present}
+{Distributed Job Processing Platform}
+{Personal project}
+
+\roleAchievements
+{Built a distributed job processing platform on AWS using Python, FastAPI, SQS, EKS, Terraform, and\\ Prometheus/Grafana to demonstrate end to end cloud design and operations.}
+{Structured infrastructure into foundation, app, compute, and monitoring stacks covering remote state, ECR, OIDC based GitHub Actions access, IRSA, queueing, and managed observability services.}
+{Implemented API and worker services with idempotency handling, Prometheus metrics, and queue based processing patterns to show scalable background job execution and operational visibility.}
+{}{}{}{}{}{}
+
+\medskip
+\begin{center}
+\textbf{Additional projects available at \href{https://ericashenden.com}{ericashenden.com} and \href{https://github.com/SuperReliableEric}{github.com/SuperReliableEric}}
+\end{center}
+\medskip
 
 % =========================
 % Education
@@ -108,5 +143,22 @@ Senior Site Reliability Engineer focused on building reliable, scalable systems 
 \newCourse{2012 -- 2016}
 {Radford University}
 {B.S. Computer Science: Software Engineering}{}
+
+% =========================
+% Technical Keywords
+% =========================
+\newHeading{Technical Keywords}
+
+{\small
+\noindent\textbf{Azure:} AKS, App Services, Container Apps, Key Vault, Front Door, Application Gateway, Virtual Networks (VNets),\\
+VPN Gateway, Private Endpoints, Managed Identities\\
+\textbf{AWS:} EKS, SQS, IAM, ECR\\
+\textbf{Containers/Orchestration:} Kubernetes, Helm, KEDA, Docker, Podman\\
+\textbf{Infrastructure as Code:} Terraform, Pulumi\\
+\textbf{Observability:} Datadog, Prometheus, Grafana, Application Insights\\
+\textbf{Languages/Scripting:} PowerShell, Python, Bash\\
+\textbf{Data:} SQL (Azure SQL, SQL Managed Instance), PostgreSQL, Cosmos DB, Azure Storage\\
+\textbf{CI/CD:} Azure DevOps, GitHub Actions
+}
 
 \end{document}
